@@ -1,7 +1,8 @@
 <template>
-  <div class="deep-purple darken-4 contenido">
+  <div>
+    <div class="background-distortion" :style="`background: url('${this.img}'`"></div>
     <v-container class="grid-list-xl text-xs-center">
-      <productComponent :peliculas="peliculas"/>
+      <productComponent @img="img = $event" :peliculas="peliculas"/>
     </v-container>
   </div>
 </template>
@@ -15,6 +16,7 @@ export default {
   },
   data() {
     return {
+      img: "",
       peliculas: [
         {
           title: "'Ready Player One',",

@@ -60,12 +60,19 @@ export default {
     },
     slides() {
       return this.$refs.slides;
+    },
+    bgImg() {
+      const img = this.selectedSlide.image.toString();
+      return this.$emit("img", img);
     }
   },
-
+  mounted() {
+    this.bgImg;
+  },
   methods: {
     async swipe() {
       this.selectedIndex = await this.slides.getActiveIndex();
+      this.bgImg;
     },
     tap(event) {
       console.log("tap", event.target);
