@@ -1,5 +1,7 @@
 # app-dejavu
 
+Aplicación realizada con Ionic  4.12  y Vue Cli 3.7.0 , ademas de utilizar componentes del framework ionic se utiliza Vuetify como complemento , gestos: slide, cambio dinamico de la información 
+
 # ScreenShot
 
 ### mobil
