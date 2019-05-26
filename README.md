@@ -1,29 +1,10 @@
 # app-dejavu
 
-## Project setup
-```
-npm install
-```
+# ScreenShot
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### mobil
+![image](https://user-images.githubusercontent.com/28877837/58386850-5acd3f80-7fcb-11e9-8a33-c53fe3ab77f0.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### desktop
+![image](https://user-images.githubusercontent.com/28877837/58386837-3a9d8080-7fcb-11e9-8c4b-89e65016f64f.png)
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
